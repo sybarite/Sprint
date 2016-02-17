@@ -17,13 +17,15 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
+  Sprint is port of the famous Javascript library lodash. Although a port of the lodash utility library it will
+  only have swift paradigms for similar use cases found in lodash
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/Sprint"
+  s.homepage         = "https://github.com/sybarite/Sprint"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Vivek Gounder" => "vivekgounder@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/Sprint.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/sybarite/Sprint.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '8.0'
